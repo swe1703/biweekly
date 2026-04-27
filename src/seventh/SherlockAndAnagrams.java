@@ -12,6 +12,7 @@ public class SherlockAndAnagrams {
 
         for(int start = 0; start < len; start++) {
             for(int end = start+1; end <= len; end++) {
+
                 String tempSubstring = s.substring(start, end);
 
                 char[] charsOfSubstring = tempSubstring.toCharArray();

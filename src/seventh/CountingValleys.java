@@ -8,6 +8,7 @@ public class CountingValleys {
         boolean valleyStartCheck = false;
 
         for(char step : path.toCharArray()) {
+
             if(step == 'U') track++;
             else track--;
 
